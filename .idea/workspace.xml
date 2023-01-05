@@ -5,12 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d4847be-a810-48e5-afb5-d1ba5144f351" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-001/src/main/java/com/powernode/spring6/bean/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-001/src/main/java/com/powernode/spring6/bean/QianDaYe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-001/src/main/java/com/powernode/spring6/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-001/src/main/java/com/powernode/spring6/dao/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-001/src/main/java/com/powernode/spring6/dao/impl/UserImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-001/src/main/java/com/powernode/spring6/service/CustomService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-001/src/main/java/com/powernode/spring6/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-001/src/main/java/com/powernode/spring6/service/impl/CustomServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-001/src/main/java/com/powernode/spring6/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-001/src/main/resources/Spring-p.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-001/src/main/resources/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-001/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-001/src/main/resources/spring-array.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-001/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring6-001/src/test/java/com/powernode/spring6/test/FirstSpringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="spring-beans.schema" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,6 +51,13 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\idea\apache-maven-3.8.2\maven-repo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../apache-maven-3.8.2" />
+        <option name="userSettingsFile" value="D:\idea\apache-maven-3.8.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="workspaceImportEnabled" value="true" />
@@ -29,7 +65,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2JUO8vTRzISLxb5aq0l6dFXSkB3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,15 +76,96 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/idea/IntelliJ IDEA 2020.3.3/IntelliJ IDEA 2022.3.1/workdirectory/MSDetector&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;aacda7a504174b7be1b151fa529a6a51&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager" selected="JUnit.FirstSpringTest.testPSpringCode">
+    <configuration name="FirstSpringTest.testFirstSpringCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring6-001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.powernode.spring6.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.powernode.spring6.test" />
+      <option name="MAIN_CLASS_NAME" value="com.powernode.spring6.test.FirstSpringTest" />
+      <option name="METHOD_NAME" value="testFirstSpringCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstSpringTest.testPSpringCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring6-001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.powernode.spring6.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.powernode.spring6.test" />
+      <option name="MAIN_CLASS_NAME" value="com.powernode.spring6.test.FirstSpringTest" />
+      <option name="METHOD_NAME" value="testPSpringCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstSpringTest.testSecondSpringCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring6-001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.powernode.spring6.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.powernode.spring6.test" />
+      <option name="MAIN_CLASS_NAME" value="com.powernode.spring6.test.FirstSpringTest" />
+      <option name="METHOD_NAME" value="testSecondSpringCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstSpringTest.testThirdSpringCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring6-001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.powernode.spring6.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.powernode.spring6.test" />
+      <option name="MAIN_CLASS_NAME" value="com.powernode.spring6.test.FirstSpringTest" />
+      <option name="METHOD_NAME" value="testThirdSpringCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FirstSpringTest.testPSpringCode" />
+        <item itemvalue="JUnit.FirstSpringTest.testThirdSpringCode" />
+        <item itemvalue="JUnit.FirstSpringTest.testSecondSpringCode" />
+        <item itemvalue="JUnit.FirstSpringTest.testFirstSpringCode" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,6 +175,10 @@
       <option name="presentableId" value="Default" />
       <updated>1672129042350</updated>
       <workItem from="1672129042878" duration="4700000" />
+      <workItem from="1672575473736" duration="1815000" />
+      <workItem from="1672653914561" duration="12160000" />
+      <workItem from="1672805002207" duration="4142000" />
+      <workItem from="1672885950813" duration="1245000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1672129206119</created>
@@ -88,5 +211,9 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="second commit" />
     <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="userImplBean" class="com.powernode.spring6.dao.impl.UserImpl"/>
+    <bean id="CustomServiceImplBean" class="com.powernode.spring6.service.impl.CustomServiceImpl">
+        <constructor-arg index="0" ref="userImplBean"/>
+    </bean>
+
+    <bean id="userBean" class="com.powernode.spring6.bean.User">
+        <!--简单类型赋值，不能使用ref，使用value-->
+        <property name="age" value="34"/>
+        <property name="password" value="casda"/>
+        <property name="username" value="陈三木"/>
+    </bean>
+
+</beans>

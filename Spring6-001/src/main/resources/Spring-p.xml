@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--
+    第一步：在spring头部添加p命名空间。xmlns:p="http://www.springframework.org/schema/p"
+    -->
+    <bean id="DogBean" class="com.powernode.spring6.bean.Dog" p:age="15" p:name="狗蛋" p:birthday-ref="birthBean"/>
+    <!--获取当前系统时间-->
+    <bean id="birthBean" class="java.util.Date"/>
+
+</beans>
